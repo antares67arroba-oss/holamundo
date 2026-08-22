@@ -1,0 +1,15 @@
+[Quantified] Quantified API starting
+[Quantified] Quantified Core Starting
+[Quantified] Quantified Async Pool Start
+[Quantified] Quantified GPU Acceleration Starting
+[Quantified] [OpenCL] Background probe scheduled
+[Quantified] OpenCL probe deferred (background)
+[Quantified] [Vulkan] Background probe pending
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] Vulkan probe deferred (background, isolated legacy runtime)
+[Quantified] [Vulkan] Probe scheduler armed
+[Quantified] Quantified API WebPanel starting
+[Quantified] Forcing API class initialization
+[Quantified] [Vulkan] Probe unavailable - attempt 1 (initial) - UnsatisfiedLinkError: Failed to locate library: libvulkan.so.1
+[Quantified] [Vulkan] Probe scheduled - attempt 2 (retry:unavailable) in 60000 ms
