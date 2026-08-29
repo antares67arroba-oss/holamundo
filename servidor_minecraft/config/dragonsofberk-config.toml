@@ -1,0 +1,16 @@
+
+#Dragons of Berk Configuration
+[grab_mechanic]
+	#List of entity type IDs that dragons can grab.
+	#Add entries from other mods using their registry name (e.g. 'modid:entity_name').
+	#Players can always be grabbed regardless of this list.
+	grabbable_entities = ["minecraft:cow", "minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:rabbit", "minecraft:llama", "minecraft:trader_llama", "minecraft:cat", "minecraft:wolf", "minecraft:parrot", "minecraft:turtle", "minecraft:fox", "minecraft:panda", "minecraft:goat", "minecraft:villager", "minecraft:wandering_trader", "minecraft:snow_golem"]
+
+[toothless_skin]
+	#Allow server operators (OP) to rename a Night Fury 'Toothless' or 'Toothlezz'
+	#to obtain the special Toothless skin.
+	allow_toothless_skin_op = true
+	#Allow regular players (non-OP) to rename a Night Fury 'Toothless' or 'Toothlezz'
+	#to obtain the special Toothless skin.
+	allow_toothless_skin_player = false
+

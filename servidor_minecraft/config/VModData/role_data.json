@@ -1,0 +1,33 @@
+{
+  "rolesPermissions" : {
+    "default" : [ "Allow SensorMode", "Allow VEntityChanger", "Allow RopeMode", "Allow ScaleMode", "Allow StripMode", "Allow SchemMode", "Allow GravChangerMode", "Allow MassChangerMode", "Allow ShipRemoverMode", "Allow Command Usage", "Allow ConnectionMode", "Allow HydraulicsMode", "Allow ThrusterMode", "Allow DisableCollisionsMode" ]
+  },
+  "playersRoles" : {
+    "d2996896-477c-303b-9567-4082b9abb61d" : {
+      "uuid" : "d2996896-477c-303b-9567-4082b9abb61d",
+      "nickname" : "antares",
+      "role" : "default"
+    },
+    "0f92f441-f7d9-3f0e-b559-39b314a6f685" : {
+      "uuid" : "0f92f441-f7d9-3f0e-b559-39b314a6f685",
+      "nickname" : "Linnzx",
+      "role" : "default"
+    },
+    "e91eb749-443a-3532-bc89-cb701f69efcc" : {
+      "uuid" : "e91eb749-443a-3532-bc89-cb701f69efcc",
+      "nickname" : "Cabo",
+      "role" : "default"
+    },
+    "d9cc7137-c87a-30f8-a49d-3adfd052b96e" : {
+      "uuid" : "d9cc7137-c87a-30f8-a49d-3adfd052b96e",
+      "nickname" : "f4tizzz",
+      "role" : "default"
+    },
+    "677ace3b-e062-3b07-b08f-468746124fd9" : {
+      "uuid" : "677ace3b-e062-3b07-b08f-468746124fd9",
+      "nickname" : "GonzaloM369",
+      "role" : "default"
+    }
+  },
+  "allRoles" : [ "default" ]
+}

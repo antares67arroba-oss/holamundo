@@ -1,0 +1,648 @@
+[29Aug2026 21:57:26.436] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[29Aug2026 21:57:26.442] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[29Aug2026 21:57:30.525] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Aug2026 21:57:30.633] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/holamundo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[29Aug2026 21:57:31.124] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holamundo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[29Aug2026 21:57:31.125] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holamundo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[29Aug2026 21:57:31.126] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holamundo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[29Aug2026 21:57:31.127] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holamundo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[29Aug2026 21:57:31.693] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[29Aug2026 21:57:34.605] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Aug2026 21:57:34.763] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[29Aug2026 21:57:35.242] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.66+mc1.20.1: 110 options available, 0 override(s) found
+[29Aug2026 21:57:35.243] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[29Aug2026 21:57:35.260] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[29Aug2026 21:57:35.282] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Aug2026 21:57:35.566] [main/INFO] [Puzzles Lib/]: Loading 41 mods:
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- armourers_workshop 3.4.0-beta.3
+	- cbc_at 0.1.2b-1.20.1
+	- chisel 2.0.0+mc1.20.1
+	- chunkloaders 1.2.9
+	- citadel 2.6.3
+	- computercraft 1.108.0
+	- copycats 3.0.4+mc.1.20.1-forge
+	- create 6.0.8
+		|-- flywheel 1.0.5
+		\-- ponder 1.0.91
+	- create_new_age 1.2.0+mc1.20.1
+		\-- esl 1.1.3
+	- createbigcannons 5.11.2
+	- cryonicconfig 1.0.0+mc1.20.1
+	- dragonsofberk 1.0.2
+	- farmersdelight 1.20.1-1.3.2
+	- ferritecore 6.0.1
+	- forge 47.4.10
+	- fossil 9.3.4.0
+	- geckolib 4.8.4
+	- jei 15.20.0.129
+	- kotlinforforge 4.12.0
+	- minecraft 1.20.1
+	- modernfix 5.27.66+mc1.20.1
+	- morehitboxes 1.9.2
+		\-- mixinextras 0.4.1
+	- mowziesmobs 1.8.2
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- railways 1.6.14-beta+forge-mc1.20.1
+	- rats 1.20.1-8.1.3
+	- ritchiesprojectilelib 2.1.1
+	- s_a_b 1.4.3
+	- skinrestorer 2.10.0+1.20-forge
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.24
+	- terrablender 3.0.1.10
+	- travelersbackpack 9.1.56
+	- voicechat 1.20.1-2.6.11
+		\-- voicechat_api 2.6.0
+[29Aug2026 21:57:37.176] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[29Aug2026 21:57:37.176] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[29Aug2026 21:57:37.236] [main/INFO] [VersionResolver/]: Resolve kubejs version: null
+[29Aug2026 21:57:37.489] [main/WARN] [mixin/]: Error loading class: tschipp/carryon/common/carry/PickupHandler (java.lang.ClassNotFoundException: tschipp.carryon.common.carry.PickupHandler)
+[29Aug2026 21:57:37.489] [main/WARN] [mixin/]: @Mixin target tschipp.carryon.common.carry.PickupHandler was not found fossil_forge.mixins.json:PickupHandlerMixin
+[29Aug2026 21:57:38.042] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack$Pose for invalid dist DEDICATED_SERVER
+[29Aug2026 21:57:38.044] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/vertex/PoseStack$Pose (java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/vertex/PoseStack$Pose for invalid dist DEDICATED_SERVER)
+[29Aug2026 21:57:38.139] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[29Aug2026 21:57:38.728] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.10.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.10.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[29Aug2026 21:57:38.863] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.73 s after launch)
+[29Aug2026 21:57:39.232] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Aug2026 21:57:39.233] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Aug2026 21:57:40.841] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1961 milliseconds
+[29Aug2026 21:57:44.186] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:180]: curiosIntegration not found in the [common.backpackSettings] section.
+[29Aug2026 21:57:44.298] [modloading-worker-0/INFO] [org.antarcticgardens.cna.CreateNewAge/]: Hello 1.20.1 Create!
+[29Aug2026 21:57:44.519] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.14-beta initializing! Commit hash: a23701697f25a217ed967b564a216a6429e07009 on Create version: 6.0.8 on platform: Forge
+[29Aug2026 21:57:44.709] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.8 initializing! Commit hash: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+[29Aug2026 21:57:45.609] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[29Aug2026 21:57:46.148] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[29Aug2026 21:57:46.149] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[29Aug2026 21:57:46.246] [modloading-worker-0/INFO] [com.Akeltroll.dragonsofberk.DragonsofBerk/]: Initializing Dragons of Berk mod...
+[29Aug2026 21:57:46.306] [modloading-worker-0/INFO] [com.Akeltroll.dragonsofberk.DragonsofBerk/]: Mod initialization complete.
+[29Aug2026 21:57:46.432] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[29Aug2026 21:57:46.481] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29Aug2026 21:57:46.759] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[29Aug2026 21:57:46.955] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[29Aug2026 21:57:46.956] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[29Aug2026 21:57:47.147] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:cap_channel/537e4f78f24b30e4bee5892e8d9314fa
+[29Aug2026 21:57:47.149] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/f7d73d83d6fa3fb99fb754f57f7238af
+[29Aug2026 21:57:47.158] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/5ecf814711a7357f8ebd58d771f05139
+[29Aug2026 21:57:47.160] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/2ae61e410df635b2b2c2d4eaa7b7afcb
+[29Aug2026 21:57:47.167] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/600dc9ad56393757ae8315ba075af416
+[29Aug2026 21:57:47.168] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/f58da9d045d839f69fc6dd355effa92e
+[29Aug2026 21:57:47.169] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/ec18fa987d5331379c9156102188220c
+[29Aug2026 21:57:47.173] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/b0228010ee3d3689beb49186e8009925
+[29Aug2026 21:57:47.174] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/ed688e568fc63151a34c0f912fce9d27
+[29Aug2026 21:57:47.175] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/8aaf614d5e2d39dd9e136e8c430145a9
+[29Aug2026 21:57:47.179] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/08e9f40b177134efbc5eb99e2ad6bcb5
+[29Aug2026 21:57:47.180] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/531d15ea7fd13018964a31b3ccac540a
+[29Aug2026 21:57:47.261] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[29Aug2026 21:57:47.709] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[29Aug2026 21:57:47.715] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[29Aug2026 21:57:47.716] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[29Aug2026 21:57:47.717] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[29Aug2026 21:57:47.717] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[29Aug2026 21:57:47.718] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[29Aug2026 21:57:47.719] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[29Aug2026 21:57:47.719] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[29Aug2026 21:57:47.719] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[29Aug2026 21:57:47.720] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[29Aug2026 21:57:51.272] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[29Aug2026 21:57:51.386] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[29Aug2026 21:57:51.445] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[29Aug2026 21:57:51.448] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[29Aug2026 21:57:51.448] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[29Aug2026 21:57:51.448] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[29Aug2026 21:57:51.460] [modloading-worker-0/INFO] [com.Akeltroll.dragonsofberk.DragonsofBerk/]: Starting common setup...
+[29Aug2026 21:57:51.461] [modloading-worker-0/INFO] [com.Akeltroll.dragonsofberk.DragonsofBerk/]: Common setup complete.
+[29Aug2026 21:57:51.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[29Aug2026 21:57:51.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 3.0.4+mc.1.20.1-forge Target: null
+[29Aug2026 21:57:51.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[29Aug2026 21:57:51.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[29Aug2026 21:57:51.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[29Aug2026 21:57:51.655] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[29Aug2026 21:57:51.655] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[29Aug2026 21:57:51.657] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[29Aug2026 21:57:51.657] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[29Aug2026 21:57:51.749] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29Aug2026 21:57:51.749] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29Aug2026 21:57:51.750] [main/INFO] [terrablender/]: Registered region fossil:overworld to index 1 for type OVERWORLD
+[29Aug2026 21:57:52.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.11 Target: 1.20.1-2.6.22
+[29Aug2026 21:57:52.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Aug2026 21:57:52.227] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[29Aug2026 21:57:52.228] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[29Aug2026 21:57:52.229] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[29Aug2026 21:57:52.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[29Aug2026 21:57:52.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[29Aug2026 21:57:52.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.108.0 Target: 1.120.2
+[29Aug2026 21:57:52.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[29Aug2026 21:57:52.448] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[29Aug2026 21:57:52.901] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Aug2026 21:57:53.367] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/holamundo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
+[29Aug2026 21:57:53.368] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/holamundo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
+[29Aug2026 21:57:53.533] [main/INFO] [com.simibubi.create.Create/]: Created 243 recipes which will be injected into the game
+[29Aug2026 21:57:53.543] [main/INFO] [com.simibubi.create.Create/]: Created 1 tags which will be injected into the game
+[29Aug2026 21:57:55.229] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[29Aug2026 21:57:55.431] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:hard_steel_blocks as it is missing following references: s_a_b:armorwl (from s_a_b-1.4.3.jar), 
+	s_a_b:armorwl_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:armorwl_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:armorwl_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:armorwlblack (from s_a_b-1.4.3.jar), 
+	s_a_b:armorwlgray (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.433] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:steel_blocks as it is missing following references: s_a_b:steelwl (from s_a_b-1.4.3.jar), 
+	s_a_b:steelwl_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelwl_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelwl_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelwl_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelwlblack (from s_a_b-1.4.3.jar), 
+	s_a_b:steelwlgray (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.445] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:steel_slabs as it is missing following references: s_a_b:steelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoplainsslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoplainsvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoforestslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoforestvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamosnowslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamosnowvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamomesaslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamomesavslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamodesertslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamodesertvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoswampslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoswampvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamojungleslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamojunglevslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamotaigaslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamotaigavslab (from s_a_b-1.4.3.jar), 
+	s_a_b:blacksteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:redsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:greensteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:bluesteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:cyansteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:brownsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:graysteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightgraysteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightbluesteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:magentasteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:yellowsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:pinksteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:purplesteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:orangesteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:limesteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:whitesteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:blacksteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:bluesteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:redsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:greensteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:graysteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:cyansteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:brownsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightgraysteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightbluesteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:magentasteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:yellowsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:pinksteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:purplesteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:orangesteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:limesteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:whitesteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabcolored_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabcolored_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabcolored_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabcolored_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabcoloredparade (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabcolored_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabcolored_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabcolored_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabcolored_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabcoloredparade (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabshipbottom (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabshipbottom (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslab_4bo (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslab_4bo (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabgelb (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabgelb (from s_a_b-1.4.3.jar), 
+	s_a_b:steelslabpanzergrau (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabpanzergrau (from s_a_b-1.4.3.jar), 
+	s_a_b:steeelslabrotbraun (from s_a_b-1.4.3.jar), 
+	s_a_b:steelvslabrotbraun (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.454] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:light_steel_slabs as it is missing following references: s_a_b:lightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightstellslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoplainsslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoplainsvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoforestslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoforestverticalslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamosnowslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamosnowvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamomesaslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamomesavslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamodesertslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamodesertvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoswampslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoswampvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamojungleslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamojunglevslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamotaigaslab (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamotaigavslab (from s_a_b-1.4.3.jar), 
+	s_a_b:blakclightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:redlightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:greenlightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:bluelightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:cyanlightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:brownlightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:graylightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightgraylightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightbluelightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:magentalightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:yellowlightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:pinklightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:purplelightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:orangelightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:limelightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:whitelightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:blacklightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:redlightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:greenlightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:bluelightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:cyanlightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:brownlightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:graylightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightgraylightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightbluelightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:magentalightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:yellowlightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:pinklightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:purplelightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:orangelightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:limelightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:whitelightsteelvslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabcolored_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabcolored_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabcolored_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabcolored_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabcoloredparade (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabcolored_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabcolored_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabcolored_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabcolored_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabcoloredparade (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslab (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabshipbottom (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslab_4bo (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslab_4bo (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslavgelb (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabgelb (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabpanzergrau (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabpanzergrau (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelslabrotbraun (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelvslabrotbraun (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.455] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:steel_stairs as it is missing following references: s_a_b:steelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoplainsstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoforeststairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamosnowstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamodesertstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamomesastairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamoswampstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamojunglestairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelblockcamotaigastairs (from s_a_b-1.4.3.jar), 
+	s_a_b:blacksteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:redsteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:greensteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:bluesteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:cyansteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:brownsteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:graysteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:lightgraysteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:lightbluesteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:magentasteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:yellowsteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:pinksteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:purplesteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:orangesteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:limesteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:whitesteelarmorstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairscolored_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairscolored_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairscolored_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairscoloredparade (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairsshipbottom (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairs_4bo (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairsgelb (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairspanzergrau (from s_a_b-1.4.3.jar), 
+	s_a_b:steelstairsrotbraun (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.455] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:hard_steel_stairs as it is missing following references: s_a_b:lghtsteelstairscoloredparade (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.458] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:light_steel_blocks as it is missing following references: s_a_b:lightwl (from s_a_b-1.4.3.jar), 
+	s_a_b:lightwl_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightwl_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightwl_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightwl_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightwlblack (from s_a_b-1.4.3.jar), 
+	s_a_b:lightwlgray (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.459] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag s_a_b:light_steel_stairs as it is missing following references: s_a_b:lightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoplainsstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoforest (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamosnowstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamodesertstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamomesastairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamoswampstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamojunglestairs (from s_a_b-1.4.3.jar), 
+	s_a_b:iightsteelcamotaiga (from s_a_b-1.4.3.jar), 
+	s_a_b:blacklightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:redlightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:greenlightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:bluelightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:cyanlightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:brownlightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:graylightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:lightgraylightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:lightbluelightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:magentalightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:yellowlightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:pinklightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:purplelightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:orangelightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:limelightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:whitelightsteelstairs (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelstairscolored_29 (from s_a_b-1.4.3.jar), 
+	s_a_b:lghtsteelstairscolored_31 (from s_a_b-1.4.3.jar), 
+	s_a_b:lghtsteelstairscolored_32 (from s_a_b-1.4.3.jar), 
+	s_a_b:lghtsteelstairscolored_33 (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelstairsshipbottom (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelstairs_4bo (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelstairsgelb (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelstairspanzergrau (from s_a_b-1.4.3.jar), 
+	s_a_b:lightsteelstairsrotbraun (from s_a_b-1.4.3.jar)
+[29Aug2026 21:57:55.579] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:needs_iron_tool as it is missing following references: cbc_at:heavy_autocannon_barrel_cast_mould (from cbc_at_Forge_1.20.1_0.1.3b.jar), 
+	cbc_at:heavy_autocannon_recoil_spring_cast_mould (from cbc_at_Forge_1.20.1_0.1.3b.jar), 
+	cbc_at:heavy_autocannon_breech_cast_mould (from cbc_at_Forge_1.20.1_0.1.3b.jar), 
+	cbc_at:heavy_autocannon_qfbreech_cast_mould (from cbc_at_Forge_1.20.1_0.1.3b.jar)
+[29Aug2026 21:57:56.026] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cbc_at:blocks/heavy_autocannon_barrel_cast_mould
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'cbc_at:heavy_autocannon_barrel_cast_mould'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23170!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23170!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Aug2026 21:57:56.050] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cbc_at:blocks/heavy_autocannon_recoil_spring_cast_mould
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'cbc_at:heavy_autocannon_recoil_spring_cast_mould'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23170!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23170!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Aug2026 21:57:56.094] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cbc_at:blocks/heavy_autocannon_breech_cast_mould
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'cbc_at:heavy_autocannon_breech_cast_mould'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23170!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23170!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Aug2026 21:57:56.191] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:mixing/steel_block_melting: com.google.gson.JsonSyntaxException: Invalid empty fluid 'tfmg:molten_steel'
+[29Aug2026 21:57:56.192] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:compacting/light_steel_block: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:heavy_plate'
+[29Aug2026 21:57:56.244] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:compacting/double_steel_block: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:heavy_plate'
+[29Aug2026 21:57:56.328] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:mixing/light_steel_block_melting: com.google.gson.JsonSyntaxException: Invalid empty fluid 'tfmg:molten_steel'
+[29Aug2026 21:57:56.340] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:compacting/hard_steel_block: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:heavy_plate'
+[29Aug2026 21:57:56.368] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:mixing/double_steel_block_melting: com.google.gson.JsonSyntaxException: Invalid empty fluid 'tfmg:molten_steel'
+[29Aug2026 21:57:56.378] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe s_a_b:mixing/hard_steel_block_melting: com.google.gson.JsonSyntaxException: Invalid empty fluid 'tfmg:molten_steel'
+[29Aug2026 21:57:56.401] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 36 recipes
+[29Aug2026 21:57:56.541] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:night_fury: Task Advancement{parentId=dragonsofberk:strike, display=net.minecraft.advancements.DisplayInfo@352bbb85, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@6393ebde}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.542] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:belzium: Task Advancement{parentId=dragonsofberk:gronckle_iron, display=net.minecraft.advancements.DisplayInfo@66ed5ef5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirement=net.minecraft.advancements.Criterion@46838166}, requirements=[[requirement]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.542] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:gronckle_iron_tools: Task Advancement{parentId=dragonsofberk:gronckle_iron_tool, display=net.minecraft.advancements.DisplayInfo@30529d7c, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={sword=net.minecraft.advancements.Criterion@6a80b2a1, dagger=net.minecraft.advancements.Criterion@6bb70240, hammer=net.minecraft.advancements.Criterion@745bb21f, mace=net.minecraft.advancements.Criterion@50c67895, pickaxe=net.minecraft.advancements.Criterion@3f3cdd96, doubleaxe=net.minecraft.advancements.Criterion@6cca6d33, axe=net.minecraft.advancements.Criterion@45a8f1ff}, requirements=[[pickaxe], [sword], [dagger], [mace], [hammer], [axe], [doubleaxe]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.542] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:gronckle_iron_tool: Task Advancement{parentId=dragonsofberk:gronckle_iron, display=net.minecraft.advancements.DisplayInfo@69b8b97d, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={sword=net.minecraft.advancements.Criterion@57e71c89, dagger=net.minecraft.advancements.Criterion@59c281c6, hammer=net.minecraft.advancements.Criterion@682acaa, mace=net.minecraft.advancements.Criterion@2a5d8e56, pickaxe=net.minecraft.advancements.Criterion@45b1ccc0, doubleaxe=net.minecraft.advancements.Criterion@830b901, axe=net.minecraft.advancements.Criterion@1bc4a351}, requirements=[[pickaxe, sword, axe, doubleaxe, mace, dagger, hammer]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.542] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:boulder: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@1bc4fa9e, rewards=AdvancementRewards{experience=25, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@25240c9c}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.542] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:skrill: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@32ba50b9, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@37fffa9e}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:sharp: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@625925d4, rewards=AdvancementRewards{experience=25, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={stinger=net.minecraft.advancements.Criterion@2aba180b, speed_stinger=net.minecraft.advancements.Criterion@b11c03c}, requirements=[[speed_stinger, stinger]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:tracker: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@6c683520, rewards=AdvancementRewards{experience=25, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@69fd18b1}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:light_fury: Task Advancement{parentId=dragonsofberk:strike, display=net.minecraft.advancements.DisplayInfo@8aed56b, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@9177c5f}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:belzium_tool: Task Advancement{parentId=dragonsofberk:belzium, display=net.minecraft.advancements.DisplayInfo@38437d07, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={sword=net.minecraft.advancements.Criterion@a840bd4, dagger=net.minecraft.advancements.Criterion@7cc7fd7f, hammer=net.minecraft.advancements.Criterion@7d97fe0c, mace=net.minecraft.advancements.Criterion@5e1f1ffc, pickaxe=net.minecraft.advancements.Criterion@74ef6540, doubleaxe=net.minecraft.advancements.Criterion@370042a7, axe=net.minecraft.advancements.Criterion@75a5add5}, requirements=[[pickaxe, sword, axe, doubleaxe, mace, dagger, hammer]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:stoker: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@69897263, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={monstrous_nightmare=net.minecraft.advancements.Criterion@311ab182, terrible_terror=net.minecraft.advancements.Criterion@7fd41b6f}, requirements=[[monstrous_nightmare, terrible_terror]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:triple_stryke: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@2d12811d, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@7242f8b3}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.543] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:gronckle_iron: Task Advancement{parentId=dragonsofberk:boulder, display=net.minecraft.advancements.DisplayInfo@2a53221a, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirement=net.minecraft.advancements.Criterion@4f31c083}, requirements=[[requirement]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.544] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:strike: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@151abc9f, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={night_fury=net.minecraft.advancements.Criterion@546e4367, light_fury=net.minecraft.advancements.Criterion@7ef7161d, triple_stryke=net.minecraft.advancements.Criterion@826f730, skrill=net.minecraft.advancements.Criterion@48985cef}, requirements=[[night_fury, light_fury, triple_stryke, skrill]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.544] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:belzium_tools: Task Advancement{parentId=dragonsofberk:belzium_tool, display=net.minecraft.advancements.DisplayInfo@176a1284, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={sword=net.minecraft.advancements.Criterion@1d1f5ba2, dagger=net.minecraft.advancements.Criterion@293f17aa, hammer=net.minecraft.advancements.Criterion@56f419e8, mace=net.minecraft.advancements.Criterion@11cdcf80, pickaxe=net.minecraft.advancements.Criterion@76684450, doubleaxe=net.minecraft.advancements.Criterion@27bb8f70, axe=net.minecraft.advancements.Criterion@51f6e936}, requirements=[[pickaxe], [sword], [dagger], [mace], [hammer], [axe], [doubleaxe]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.544] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:mystery: Task Advancement{parentId=dragonsofberk:dragonsofberk, display=net.minecraft.advancements.DisplayInfo@61cabffc, rewards=AdvancementRewards{experience=25, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@269e1a8b}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.544] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dragonsofberk:stinger: Task Advancement{parentId=dragonsofberk:sharp, display=net.minecraft.advancements.DisplayInfo@3c02e6bb, rewards=AdvancementRewards{experience=250, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2af7c028}, criteria={requirements=net.minecraft.advancements.Criterion@6a9ef9f2}, requirements=[[requirements]], sends_telemetry_event=false}
+[29Aug2026 21:57:56.544] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4517 advancements
+[29Aug2026 21:57:56.602] [main/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[29Aug2026 21:57:56.629] [main/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[29Aug2026 21:57:56.636] [main/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[29Aug2026 21:57:56.638] [main/INFO] [Fossils Archeology/]: Loaded food values: (blocks: 41) (items: 41) (entities: 35, 35) (Tags: 3, 8, 0)
+[29Aug2026 21:57:56.659] [main/INFO] [Fossils Archeology/]: Loaded 13 variants
+[29Aug2026 21:57:56.669] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[29Aug2026 21:57:56.669] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[29Aug2026 21:57:56.758] [main/WARN] [ModernFix/]: Initial datapack load took 3.166 s
+[29Aug2026 21:57:56.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29Aug2026 21:57:56.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Aug2026 21:57:56.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Aug2026 21:57:56.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Aug2026 21:57:57.001] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Aug2026 21:57:57.027] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Aug2026 21:57:57.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Aug2026 21:57:57.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Aug2026 21:57:57.113] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Aug2026 21:57:57.113] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Aug2026 21:57:57.580] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[29Aug2026 21:57:57.581] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[29Aug2026 21:57:57.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Aug2026 21:57:58.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Aug2026 21:57:58.988] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Aug2026 21:57:58.989] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Aug2026 21:57:59.218] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Aug2026 21:57:59.718] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[29Aug2026 21:58:00.288] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[29Aug2026 21:58:00.722] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[29Aug2026 21:58:01.468] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[29Aug2026 21:58:01.771] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[29Aug2026 21:58:02.127] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3910 ms
+[29Aug2026 21:58:02.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.998s)! For help, type "help"
+[29Aug2026 21:58:02.417] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Aug2026 21:58:02.448] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[29Aug2026 21:58:02.465] [Server thread/WARN] [ModernFix/]: Dedicated server took 42.377 seconds to load
+[29Aug2026 21:58:02.466] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is '147.185.221.231:10326'
+[29Aug2026 21:58:02.468] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[29Aug2026 21:58:03.186] [Server thread/INFO] [Fossils Archeology/]: Setting owner for ARTHROPLEURA, 56b46945-aac3-484c-92ae-32dfe12dcadf to d2996896-477c-303b-9567-4082b9abb61d. false
+[29Aug2026 21:58:03.192] [Server thread/INFO] [Fossils Archeology/]: Setting owner for EDAPHOSAURUS, be2a6bd4-7fdb-4bce-9194-fd6f3eb4f8f3 to d2996896-477c-303b-9567-4082b9abb61d. false
+[29Aug2026 21:58:37.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
+[29Aug2026 21:58:40.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
+[29Aug2026 21:58:59.206] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Noobmaster69[/127.46.24.245:47931] logged in with entity id 142 at (-2084.012499988079, 78.5625, -101.30000001192093)
+[29Aug2026 21:58:59.401] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Noobmaster69
+[29Aug2026 21:58:59.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noobmaster69 joined the game
+[29Aug2026 21:59:01.785] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Noobmaster69 (20)
+[29Aug2026 21:59:01.787] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Noobmaster69
+[29Aug2026 21:59:01.827] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2760ms or 55 ticks behind
+[29Aug2026 21:59:02.455] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 479c4499-8ce0-3874-839e-f758f0b4f6b2
+[29Aug2026 21:59:03.452] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 479c4499-8ce0-3874-839e-f758f0b4f6b2
+[29Aug2026 21:59:03.456] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Noobmaster69 (479c4499-8ce0-3874-839e-f758f0b4f6b2) successfully connected to voice chat
+[29Aug2026 21:59:47.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] correle amiguito
+[29Aug2026 21:59:49.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] correle
+[29Aug2026 22:15:34.126] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3681, l='ServerLevel[world]', x=-1918.70, y=73.00, z=249.30] died, message: 'Villager was slain by Zombie'
+[29Aug2026 22:21:40.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Noobmaster69
+[29Aug2026 22:34:18.831] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2102, y=75, z=-96} BlockPos{x=-2101, y=77, z=-100}
+[29Aug2026 22:34:18.880] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2102, y=75, z=-96} BlockPos{x=-2101, y=77, z=-100}
+[29Aug2026 22:35:37.384] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2102, y=88, z=-94} BlockPos{x=-2096, y=87, z=-95}
+[29Aug2026 22:35:37.437] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2102, y=88, z=-94} BlockPos{x=-2096, y=87, z=-95}
+[29Aug2026 22:42:57.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Noobmaster69
+[29Aug2026 22:59:24.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noobmaster69 has made the advancement [Nightmare Fuel]
